@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/general.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TaskNexus.Web.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="body-container">
+        @RenderSection("Header")
+
+        @RenderBody()
+
+        @RenderSection("Footer")
+    </div>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

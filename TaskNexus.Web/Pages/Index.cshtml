@@ -1,0 +1,47 @@
+﻿
+@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Третья лабораторная";
+}
+@section Header {
+}
+
+<div class="login-container">
+    <div class="login-inner-container">
+        <div class="login-form">
+            <div class="inner-container">
+                <div class="inputs-container">
+                    <div class="button-url">
+                        <div class="button-url-name">КНИГИ</div>
+                        <a class="button-url-button" asp-page="/Books">СПИСОК</a>
+                        <a class="button-url-button" asp-page="/BookAdd">ДОБАВИТЬ</a>
+                        <a class="button-url-button" asp-page="/BookFind">НАЙТИ</a>
+                        <a class="button-url-button" asp-page="/BookEditPut">РЕДАКТИРОВАТЬ(Put)</a>
+                        <a class="button-url-button" asp-page="/BookEditPatch">РЕДАКТИРОВАТЬ(Patch)</a>
+                        <a class="button-url-button pred" asp-page="/BookDelete">УДАЛИТЬ</a>
+                    </div>
+
+                    <div class="button-url">
+                        <div class="button-url-name">БИБЛИОТЕКИ</div>
+                        <a class="button-url-button" asp-page="/Libraries">СПИСОК</a>
+                        <a class="button-url-button" asp-page="/LibraryAdd">ДОБАВИТЬ</a>
+                        <a class="button-url-button" asp-page="/LibraryFind">НАЙТИ</a>
+                        <a class="button-url-button" asp-page="/LibraryEditPut">РЕДАКТИРОВАТЬ(Put)</a>
+                        <a class="button-url-button" asp-page="/LibraryEditPatch">РЕДАКТИРОВАТЬ(Patch)</a>
+                        <a class="button-url-button pred" asp-page="/LibraryDelete">УДАЛИТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+@section Footer {
+}
+
+@section Scripts {
+}

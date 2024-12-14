@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\src\\TaskNexus.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskNexus.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TaskNexus.Web.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\src\\TaskNexus.Web\\wwwroot\\css\\fon2.png",
+      "PackagePath": "staticwebassets\\css\\fon2.png"
+    },
+    {
+      "Id": "G:\\src\\TaskNexus.Web\\wwwroot\\css\\fon3.png",
+      "PackagePath": "staticwebassets\\css\\fon3.png"
+    },
+    {
+      "Id": "G:\\src\\TaskNexus.Web\\wwwroot\\css\\fon5.png",
+      "PackagePath": "staticwebassets\\css\\fon5.png"
+    },
+    {
+      "Id": "G:\\src\\TaskNexus.Web\\wwwroot\\css\\fonts\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "G:\\src\\TaskNexus.Web\\wwwroot\\css\\general.css",
+      "PackagePath": "staticwebassets\\css\\general.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TaskNexus.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TaskNexus.Web.props",
+      "PackagePath": "build\\TaskNexus.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TaskNexus.Web.props",
+      "PackagePath": "buildMultiTargeting\\TaskNexus.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TaskNexus.Web.props",
+      "PackagePath": "buildTransitive\\TaskNexus.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,39 @@
+﻿
+@page
+@model LibraryEditPatchModel
+
+@{
+    ViewData["Title"] = "Редактировать библиотеку (Patch)";
+}
+@section Header {
+}
+
+<div class="login-container">
+    <div class="login-inner-container">
+        <div class="login-form">
+            <div class="inner-container">
+                <div class="inputs-container">
+                    <form class="form" method="post">
+                        <td class="text">Идентификатор: </td>
+                        <input class="text" type="text" name="id" />
+                        <td class="text">Название: </td>
+                        <input class="text" type="text" name="title" />
+                        <td class="text">Адрес: </td>
+                        <input class="text" type="text" name="adress" />
+                        <input class="button-url-button" type="submit" value="Редактировать" asp-page-handler="Submit" />
+                        <a class="button-url-button" asp-page="/Index">НАЗАД</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section Footer {
+}
+
+@section Scripts {
+}

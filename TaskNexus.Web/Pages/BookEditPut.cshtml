@@ -1,0 +1,43 @@
+﻿
+@page
+@model BookEditPutModel
+
+@{
+    ViewData["Title"] = "Редактировать книгу (Put)";
+}
+@section Header {
+}
+
+<div class="login-container">
+    <div class="login-inner-container">
+        <div class="login-form">
+            <div class="inner-container">
+                <div class="inputs-container">
+                    <form class="form" method="post">
+                        <td class="text">Идентификатор: </td>
+                        <input class="text" type="text" name="id" />
+                        <td class="text">Название: </td>
+                        <input class="text" type="text" name="title" />
+                        <td class="text">Описание: </td>
+                        <input class="text" type="text" name="description" />
+                        <td class="text">Автор: </td>
+                        <input class="text" type="text" name="author" />
+                        <td class="text">Идентификатор библиотеки: </td>
+                        <input class="text" type="text" name="libraryEntityId" />
+                        <input class="button-url-button" type="submit" value="Добавить" asp-page-handler="Submit" />
+                        <a class="button-url-button" asp-page="/Index">НАЗАД</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section Footer {
+}
+
+@section Scripts {
+}

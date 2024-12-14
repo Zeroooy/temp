@@ -1,0 +1,53 @@
+﻿
+@page
+@model LibraryFindModel
+
+@{
+    ViewData["Title"] = "Просмотр библиотек";
+}
+@section Header {
+}
+
+<div class="login-container">
+    <div class="login-inner-container">
+        <div class="login-form">
+            <div class="inner-container">
+                <div class="inputs-container">
+                    <form class="form" method="post">
+                        <td class="text">Идентификатор: </td>
+                        <input class="text" type="text" name="id" />
+                        <input class="button-url-button" type="submit" value="Найти" asp-page-handler="Submit" />
+                        <a class="button-url-button" asp-page="/Index">НАЗАД</a>
+                    </form>
+                    @{
+                        if (Model.FoundLibrary != null)
+                        {
+                            var text = "Книги: ";
+                            foreach (var b in Model.FoundLibrary.Books)
+                            {
+                                text += b.Title;
+                                if (b != Model.FoundLibrary.Books[Model.FoundLibrary.Books.Count - 1]) text += ", ";
+                            }
+                            if (text == "Книги: ") text = "Книги: нет";
+
+                            <div class="block-libraries">
+                                <div class="block-libraries-text">Название: @Model.FoundLibrary.Title</div>
+                                <div class="block-libraries-text">Адрес: @Model.FoundLibrary.Adress</div>
+                                <div class="block-libraries-text">@text</div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section Footer {
+}
+
+@section Scripts {
+}

@@ -1,0 +1,6 @@
+@TaskNexus.WebApi_HostAddress = http://localhost:5275
+
+GET {{TaskNexus.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

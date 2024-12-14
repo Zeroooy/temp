@@ -1,0 +1,46 @@
+﻿
+@page
+@model BookFindModel
+
+@{
+    ViewData["Title"] = "Найти книгу";
+}
+@section Header {
+}
+
+<div class="login-container">
+    <div class="login-inner-container">
+        <div class="login-form">
+            <div class="inner-container">
+                <div class="inputs-container">
+                    <form class="form" method="post">
+                        <td class="text">Идентификатор: </td>
+                        <input class="text" type="text" name="id" />
+                        <input class="button-url-button" type="submit" value="Найти" asp-page-handler="Submit" />
+                        <a class="button-url-button" asp-page="/Index">НАЗАД</a>
+                    </form>
+                    @{
+                        if (Model.FoundBook != null)
+                        {
+                            <div class="block-libraries">
+                                <div class="block-libraries-text">Идентификатор: @Model.FoundBook.Id</div>
+                                <div class="block-libraries-text">Название: @Model.FoundBook.Title</div>
+                                <div class="block-libraries-text">Автор: @Model.FoundBook.Author</div>
+                                <div class="block-libraries-text">Описание: @Model.FoundBook.Description</div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section Footer {
+}
+
+@section Scripts {
+}

@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TaskNexus.Web
+build_property.RootNamespace = TaskNexus.Web
+build_property.ProjectDir = G:\src\TaskNexus.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\src\TaskNexus.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/src/TaskNexus.Web/Pages/BookAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/BookDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/BookEditPatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0VkaXRQYXRjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/BookEditPut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0VkaXRQdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/BookFind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0ZpbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/Books.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/Libraries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/LibraryAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeUFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/LibraryDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/LibraryEditPatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeUVkaXRQYXRjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/LibraryEditPut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeUVkaXRQdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/LibraryFind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeUZpbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/src/TaskNexus.Web/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p6y00x3hrk

@@ -1,0 +1,51 @@
+﻿
+@page
+@model LibrariesModel
+
+@{
+    ViewData["Title"] = "Просмотр библиотек";
+}
+@section Header {
+}
+
+<div class="login-container">
+    <div class="login-inner-container">
+        <div class="login-form">
+            <div class="inner-container">
+                <div class="inputs-container">
+                    @{
+                        if (Model.FoundLibraries != null)
+                        {
+                            foreach (var i in Model.FoundLibraries)
+                            {
+                                var text = "Книги: ";
+                                foreach (var b in i.Books)
+                                {
+                                    text += b.Title;
+                                    if (b != i.Books[i.Books.Count-1]) text += ", ";
+                                }
+                                if (text == "Книги: ") text = "Книги: нет";
+
+                                <div class="block-libraries">
+                                    <div class="block-libraries-text">Идентификатор: @i.Id</div>
+                                    <div class="block-libraries-text">Название: @i.Title</div>
+                                    <div class="block-libraries-text">Адрес: @i.Adress</div>
+                                    <div class="block-libraries-text">@text</div>
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section Footer {
+}
+
+@section Scripts {
+}

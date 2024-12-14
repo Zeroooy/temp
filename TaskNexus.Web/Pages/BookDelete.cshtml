@@ -1,0 +1,36 @@
+﻿
+@page
+@model BookDeleteModel
+
+@{
+    ViewData["Title"] = "Удалить книгу";
+}
+@section Header {
+}
+
+<div class="login-container">
+    <div class="login-inner-container">
+        <div class="login-form">
+            <div class="inner-container">
+                <div class="inputs-container">
+
+                    <form class="form" method="post">
+                        <td class="text">Идентификатор: </td>
+                        <input class="text" type="text" name="id" />
+                        <input class="button-url-button pred" type="submit" value="Удалить" asp-page-handler="Submit" />
+                        <a class="button-url-button" asp-page="/Index">НАЗАД</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section Footer {
+}
+
+@section Scripts {
+}
